@@ -3,6 +3,14 @@
 Files for the YouTube course **SQL with Gaurav: Learn SQL Server from Zero**:
 https://www.youtube.com/playlist?list=PLYJOoqQqSPRE
 
+## Lessons 1–5 learner pack
+
+[Download learner pack v03 (ZIP)](https://github.com/ggahlot/sql-ytube/raw/refs/heads/main/downloads/SQL-with-Gaurav_T01-T05_Learner-Pack_v03.zip)
+
+Includes the lesson SQL, setup and lesson guides, practice questions and a separate answer key. Extract the ZIP and open `START_HERE.md` before running any SQL. The bundled files are MIT licensed; see `CREDITS_AND_LIMITS.md` for verification and third-party material limits.
+
+SHA-256: `5136A93B9B573B075C0ED382D8AB411E7DFE3D60DCF4DFA6382C361AAFB1F701`
+
 ## Setup script: `00_fablemango_schema.sql`
 
 Builds **FableMangoDB**, the practice database used in every lesson: 5 tables (Categories, Products, Customers, Orders, OrderItems) with a small set of rows.
@@ -28,11 +36,11 @@ Use a practice or development server, not a server that holds real data.
 
 ## Lessons
 
-1. What Is SQL? DDL, DML and Your First SQL Server Lab: https://youtu.be/XvDNOwEulVc
-2. Your First SQL Query: SELECT, FROM, AS and DISTINCT: https://youtu.be/2pWSnosGZsI
-3. SQL WHERE Explained: AND, OR, IN, BETWEEN and LIKE: https://youtu.be/ixBuxz0tmpI
-4. SQL ORDER BY, TOP and OFFSET FETCH: Sorting and Paging: https://youtu.be/oVfisNzc4oY
-5. SQL Aggregate Functions: COUNT, SUM, AVG, MIN, MAX: https://youtu.be/Yd9Z5f3X7Zc
+1. Lesson 1: What Is SQL? DDL, DML and Your First SQL Server Lab: https://youtu.be/XvDNOwEulVc
+2. Lesson 2: Your First SQL Query: SELECT, FROM, AS and DISTINCT: https://youtu.be/2pWSnosGZsI
+3. Lesson 3: SQL WHERE Explained: AND, OR, IN, BETWEEN and LIKE: https://youtu.be/ixBuxz0tmpI
+4. Lesson 4: SQL ORDER BY, TOP and OFFSET FETCH: Sorting and Paging: https://youtu.be/oVfisNzc4oY
+5. Lesson 5: SQL Aggregate Functions: COUNT, SUM, AVG, MIN, MAX: https://youtu.be/Yd9Z5f3X7Zc
 
 ## Notes
 
