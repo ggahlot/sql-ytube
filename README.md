@@ -10,10 +10,19 @@ Builds **FableMangoDB**, the practice database used in every lesson: 5 tables (C
 ### How to run it
 
 1. Install SQL Server (Express or Developer edition) and SQL Server Management Studio (SSMS). Lesson 1 shows how: https://youtu.be/XvDNOwEulVc
-2. Open `00_fablemango_schema.sql` in SSMS, connect to your server, and click **Execute**.
-3. In Object Explorer, refresh **Databases**. You should see **FableMangoDB**.
+2. In SSMS, connect to your server. In Object Explorer, expand **Databases**. If **FableMangoDB** is already listed, don't run this script (see below).
+3. Open `00_fablemango_schema.sql`. Select the first part, from the top down to and including the first `GO`, and click **Execute**. Messages should say the commands completed successfully. If you see any error, stop here.
+4. Select the rest of the script and click **Execute**.
+5. Refresh **Databases**. You should see **FableMangoDB**.
 
-Run it once. The script starts with `CREATE DATABASE FableMangoDB`, so it stops with an error if a database with that name already exists. To start again from scratch on your own practice server, run `DROP DATABASE FableMangoDB;` first (this deletes the database and its rows).
+Run the script only once. It doesn't check whether FableMangoDB already exists: if you run it again, the first step fails but the rest still runs and adds a second copy of the products and orders to your database, so the lesson results won't match.
+
+To start again from scratch on your own practice server, run the following, then follow the steps above. It deletes FableMangoDB and anything you added to it.
+
+```sql
+USE master;
+DROP DATABASE FableMangoDB;
+```
 
 Use a practice or development server, not a server that holds real data.
 
